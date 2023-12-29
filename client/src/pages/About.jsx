@@ -42,8 +42,12 @@ export default function About() {
 <div className="text-center text-base mb-10 px-80 font-light">
   Whether it's learning about online safety or finding interesting websites, our platform is tailored to meet your needs, ensuring a personalized and enjoyable digital experience.
 </div>
-      
-
+<div className="text-center text-blue-900 text-xl mb-2 px-64 font-semibold">
+  Disclaimer
+</div>
+<div className="text-center text-base mb-10 px-80 font-light">
+We do not have the resources to take responsibility about the validation of the entire information in our website.
+</div>
       <Footer />
     </div>
   );

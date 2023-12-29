@@ -84,7 +84,9 @@ export default function HeroSection() {
         />
         <div className="flex flex-col absolute z-10 justify-center items-center" style={{ opacity: textVisible ? 1 : 0, transition: "opacity 0.5s" }}>
           <p className="text-white   text-4xl   2xl:text-6xl drop-shadow-2xl font-bold z-10 mb-10" style={{ textShadow: "3px 3px 5px rgba(0, 0, 0, 0.8)" }}>{names[currentIndex]}</p>
-          <BlueBtn name="Learn More" />
+          <a href="https://services.india.gov.in/service/listing?cat_id=44&ln=en" target='_blank' rel='noreferrer'>
+            <BlueBtn name="Learn More" />
+          </a>
         </div>
         <div className="absolute text-white hover:text-secondary left-0 z-20 w-fit h-full flex flex-col items-center justify-center hover:cursor-pointer" onClick={prevImage}>
           <button className="my-auto p-2 rounded-full focus:outline-none">

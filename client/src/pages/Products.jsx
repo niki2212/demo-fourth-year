@@ -14,19 +14,19 @@ const products = [
     {
         name: 'Online banking',
         description: "Discover our online banking solutions tailored for a seamless digital experience.",
-        link: 'https://www.youtube.com/watch?v=dQw4w9WgXcQ&ab_channel=RickAstley',
+        link: 'https://www.youtube.com/watch?v=-uPXIml4ENo&list=PLsuopVtF8jlo9F0GNeCFY0OfmJmVer9XU',
         imgSrc: image1
     },
     {
         name: 'Online Ticket Booking',
         description: "Explore our innovative solutions for online ticket booking, designed to simplify your travel plans.",
-        link: 'https://www.youtube.com/watch?v=dQw4w9WgXcQ&ab_channel=RickAstley',
+        link: 'https://www.youtube.com/watch?v=gGyQ8MRKmjo',
         imgSrc: image2
     },
     {
         name: 'Jeevan Pramaan',
         description: "Jeevan Pramaan is a Life Certificate program affiliated with Aadhaar for people with pensions.",
-        link: 'https://www.youtube.com/watch?v=dQw4w9WgXcQ&ab_channel=RickAstley',
+        link: 'https://www.youtube.com/watch?v=6aul9mQZAoY',
         imgSrc: image3
     },
     {
