@@ -14,37 +14,37 @@ const products = [
     {
         name: 'Online banking',
         description: "Discover our online banking solutions tailored for a seamless digital experience.",
-        link: '/products/online-banking',
+        link: 'https://www.youtube.com/watch?v=dQw4w9WgXcQ&ab_channel=RickAstley',
         imgSrc: image1
     },
     {
         name: 'Online Ticket Booking',
         description: "Explore our innovative solutions for online ticket booking, designed to simplify your travel plans.",
-        link: '/products/online-ticket-booking',
+        link: 'https://www.youtube.com/watch?v=dQw4w9WgXcQ&ab_channel=RickAstley',
         imgSrc: image2
     },
     {
         name: 'Jeevan Pramaan',
         description: "Jeevan Pramaan is a Life Certificate program affiliated with Aadhaar for people with pensions.",
-        link: '/products/jeevan-praman',
+        link: 'https://www.youtube.com/watch?v=dQw4w9WgXcQ&ab_channel=RickAstley',
         imgSrc: image3
     },
     {
         name: 'Healthcare',
         description: "Cultivate success in agriculture with our agro textiles, offering solutions for crop protection, soil stabilization, and irrigation.",
-        link: '/products/healthcare',
+        link: 'https://www.youtube.com/watch?v=dQw4w9WgXcQ&ab_channel=RickAstley',
         imgSrc: image4
     },
     {
         name: 'Last will',
         description: "Ensure the safe transport of goods with our packaging textiles and explore a range of accessories to complement your needs.",
-        link: '/products/last-will',
+        link: 'https://www.youtube.com/watch?v=dQw4w9WgXcQ&ab_channel=RickAstley',
         imgSrc: image5
     },
     {
         name: 'Insurance',
         description: "Ensure a secure and worry-free future for you and your loved ones with our comprehensive Life Insurance coverage.",
-        link: '/products/insurance',
+        link: 'https://www.youtube.com/watch?v=dQw4w9WgXcQ&ab_channel=RickAstley',
         imgSrc: image6
     }
 ];
@@ -52,11 +52,13 @@ const products = [
 
 const ProductCard = ({ name, description, link, imgSrc }) => (
     <div className="max-w-md mx-auto bg-white rounded-xl overflow-hidden shadow-lg mb-8">
-        <img className="w-full h-48 object-cover" src={imgSrc} alt={name} />
-        <div className="p-4">
-            <h2 className="text-xl font-semibold mb-2">{name}</h2>
-            <p className="text-gray-600">{description}</p>
-        </div>
+        <a href={link} target='_blank' rel='noreferrer'>
+            <img className="w-full h-48 object-cover" src={imgSrc} alt={name} />
+            <div className="p-4">
+                <h2 className="text-xl font-semibold mb-2">{name}</h2>
+                <p className="text-gray-600">{description}</p>
+            </div>
+        </a>
     </div>
 );
 
