@@ -1,5 +1,5 @@
-# demo-for-par-global
-demo version for par-global
+# demo
+demo version 
 
 development:
     cd client
